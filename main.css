@@ -1,0 +1,17 @@
+.carrossel {
+    max-width: 1024px;
+    margin: 16px auto;
+}
+
+.carousel-item img {
+    border-radius: 32px;
+}
+
+article {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.row {
+    margin-bottom: 32px;
+}

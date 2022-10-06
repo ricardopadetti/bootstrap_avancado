@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container carrossel">
+        <div id="carousel-externo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/09/13/17/02/leaves-7452420_960_720.jpg">
+                    <div class="carousel-caption">
+                        Folhas secas
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/06/25/08/43/space-7283103_960_720.jpg">
+                    <div class="carousel-caption">
+                        Cristais
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 h-50" src="https://cdn.pixabay.com/photo/2022/08/22/10/28/tihany-7403355_960_720.jpg">
+                    <div class="carousel-caption">
+                        Mamífero
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-externo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-externo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-externo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-externo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-externo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Vida</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/10/03/08/12/goats-7495294_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Vida selvagem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Cultura</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/09/25/09/58/houses-7477950_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Museus</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Vida</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Pets</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Natureza</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/08/18/20/18/red-maple-leaves-7395624_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Primavera</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Cidade</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/09/16/15/53/city-7458934_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Noite</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <header class="card-header">
+                        <h4 class="card-title">Natureza</h4>
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/10/04/23/02/copper-leaves-7499230_960_720.jpg">
+                    <div class="card-body">
+                        <h5 class="card-subtitle">Chuva</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum nam, eos autem nemo minus totam minima dolore. Delectus modi sapiente earum eos laboriosam nemo tenetur quisquam dolorem iure quaerat!</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
